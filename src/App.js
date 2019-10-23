@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ViewGroup from './components/ViewGroup/ViewGroup'
+import ViewGroup from './components/viewGroup'
 
 class App extends React.Component {
   render(){
     return (
-      <ViewGroup defaultListCount= {0}/>
+      <ViewGroup/>
     );
   }
 }
